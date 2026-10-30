@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; font-src 'self'; img-src data:; base-uri 'none'; form-action 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Política de privacidad de Golden Hoard: Idle Clicker, videojuego para Android.">
+<title>Política de privacidad | Golden Hoard: Idle Clicker</title>
+<style>
+  @font-face { font-family: "Cinzel Decorative"; font-weight: 900; font-display: swap; src: url("../../fonts/cinzel-decorative-900-latin.woff2") format("woff2"); }
+  :root {
+    --bg: #efe4cb; --sheet: #fffaf0; --ink: #2d2216; --soft: #68553f; --line: #dcc9a4;
+    --accent: #8a4b0d; --gold: #b9851f; --head: #4a2c0d; --thead: #f4e8cf; --mark: #ffe08a; --mark-ink: #4a2c0d;
+    --warn-bg: #fbe5d8; --warn-ink: #7a2d12; --warn-line: #d98e6a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #17120c; --sheet: #221b13; --ink: #f1e7d5; --soft: #c5b49a; --line: #453826;
+      --accent: #efb45a; --gold: #d9a441; --head: #f6d9a0; --thead: #2e2519; --mark: #6e4d10; --mark-ink: #ffe9b8;
+      --warn-bg: #3d2015; --warn-ink: #ffcdb5; --warn-line: #8c4a2c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.65 Charter, "Iowan Old Style", Georgia, Cambria, "Times New Roman", serif; }
+  .sheet { max-width: 820px; margin: 0 auto; background: var(--sheet); border-inline: 1px solid var(--line); min-height: 100vh; }
+  header { padding: 44px 40px 28px; text-align: center; border-bottom: 3px double var(--gold); }
+  header svg { width: 58px; height: 58px; display: block; margin: 0 auto 10px; }
+  .game { margin: 0; font: 900 clamp(1.5rem, 5.4vw, 2.3rem)/1.15 "Cinzel Decorative", Georgia, serif; color: var(--head); overflow-wrap: anywhere; }
+  h1 { margin: 12px 0 4px; font-size: clamp(1.3rem, 4vw, 1.6rem); font-weight: 700; color: var(--accent); }
+  .date { margin: 0; color: var(--soft); font-size: .94rem; }
+  main { padding: 28px 40px 56px; }
+  nav { margin: 0 0 28px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 6px; }
+  nav h2 { margin: 0 0 6px; padding: 0; border: 0; font-size: 1rem; }
+  nav ol { margin: 0; padding: 0; list-style: none; columns: 2; column-gap: 24px; font-size: .94rem; }
+  nav li { margin: 3px 0; break-inside: avoid; }
+  h2 { margin: 36px 0 10px; padding-bottom: 5px; border-bottom: 1px solid var(--line); font-size: 1.24rem; line-height: 1.3; color: var(--head); scroll-margin-top: 12px; }
+  p, ul { margin: 0 0 13px; }
+  ul { padding-left: 22px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); text-underline-offset: 2px; overflow-wrap: anywhere; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  code { font: .86em ui-monospace, Menlo, Consolas, monospace; overflow-wrap: anywhere; }
+  mark { background: var(--mark); color: var(--mark-ink); padding: 0 4px; border-radius: 3px; font-weight: 700; }
+  .table { overflow-x: auto; margin: 0 0 16px; border: 1px solid var(--line); border-radius: 6px; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; line-height: 1.45; }
+  th, td { padding: 9px 11px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+  th { background: var(--thead); color: var(--head); }
+  tr:last-child td { border-bottom: 0; }
+  .draft { margin: 0; padding: 12px 40px; background: var(--warn-bg); color: var(--warn-ink); border-bottom: 1px solid var(--warn-line); font-size: .95rem; }
+  footer { padding: 18px 40px 30px; border-top: 3px double var(--gold); color: var(--soft); font-size: .88rem; text-align: center; }
+  @media (max-width: 620px) {
+    body { font-size: 16px; }
+    header { padding: 30px 16px 22px; }
+    main { padding: 22px 16px 40px; }
+    .draft { padding: 12px 16px; }
+    footer { padding: 16px 16px 26px; }
+    nav ol { columns: 1; }
+    .sheet { border: 0; }
+    table { min-width: 520px; }
+  }
+  @media print {
+    body { background: #fff; color: #000; font-size: 11pt; }
+    .sheet { border: 0; max-width: none; }
+    nav { display: none; }
+    a { color: #000; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+
+<header>
+  <svg viewBox="0 0 64 64" aria-hidden="true">
+    <circle cx="32" cy="32" r="29" fill="#d9a441" stroke="#7a4e10" stroke-width="3"/>
+    <circle cx="32" cy="32" r="22" fill="none" stroke="#7a4e10" stroke-width="2" stroke-dasharray="2 4"/>
+    <path d="M18 43V24l7.5 8L32 19l6.5 13 7.5-8v19z" fill="#fff0c2" stroke="#7a4e10" stroke-width="2.5" stroke-linejoin="round"/>
+  </svg>
+  <p class="game">Golden Hoard: Idle Clicker</p>
+  <h1>Política de privacidad</h1>
+  <p class="date">Última actualización: 30 de octubre de 2026</p>
+</header>
+<main>
+<nav aria-label="Índice"><h2>Índice</h2><ol><li><a href="#s1">1. Responsable y contacto</a></li><li><a href="#s2">2. Qué información se trata y para qué</a></li><li><a href="#s3">3. Anuncios en el juego</a></li><li><a href="#s4">4. Publicidad de Google AdMob y sus proveedores</a></li><li><a href="#s5">5. Identificadores publicitarios y tecnologías similares</a></li><li><a href="#s6">6. Consentimiento y RGPD</a></li><li><a href="#s7">7. Almacenamiento local y conservación</a></li><li><a href="#s8">8. Funcionamiento sin conexión</a></li><li><a href="#s9">9. Transferencias internacionales</a></li><li><a href="#s10">10. Seguridad</a></li><li><a href="#s11">11. Tus derechos</a></li><li><a href="#s12">12. Menores</a></li><li><a href="#s13">13. Permisos de Android</a></li><li><a href="#s14">14. Enlaces de interés</a></li><li><a href="#s15">15. Cambios en esta política</a></li></ol></nav>
+<p>Esta política explica qué datos se tratan cuando juegas a <strong>Golden Hoard: Idle Clicker</strong> (identificador de la aplicación en Android: <code>es.montondeoro</code>), quién los trata y qué puedes hacer al respecto.</p>
+<p><strong>En resumen:</strong></p>
+<ul><li>El juego no tiene cuentas ni registro, y el desarrollador no recibe tu partida ni tus datos de uso.</li><li>Tu partida se guarda en tu dispositivo.</li><li>La aplicación muestra anuncios de Google AdMob. Google y sus socios publicitarios pueden tratar datos como tu dirección IP, identificadores del dispositivo e interacciones con los anuncios.</li><li>Puedes jugar sin conexión. Cuando la normativa lo exige, el juego pide tu consentimiento con la herramienta de Google antes de solicitar anuncios.</li></ul>
+<h2 id="s1">1. Responsable y contacto</h2>
+<ul><li><strong>Responsable:</strong> OllO Studio, desarrollador independiente de Golden Hoard: Idle Clicker.</li><li><strong>Correo de contacto para privacidad:</strong> <a href="mailto:ollostudioapp@gmail.com">ollostudioapp@gmail.com</a></li></ul>
+<p>Para el tratamiento de datos relacionado con la publicidad, Google también decide sobre determinados tratamientos conforme a sus propias condiciones y políticas (consulta la sección 4). Según su política de privacidad, el proveedor responsable de los usuarios del Espacio Económico Europeo y de Suiza es Google Ireland Limited.</p>
+<h2 id="s2">2. Qué información se trata y para qué</h2>
+<div class="table"><table><thead><tr><th scope="col">Información</th><th scope="col">Quién la trata</th><th scope="col">Finalidad</th><th scope="col">Dónde está</th></tr></thead><tbody><tr><td>Partida: oro, mejoras, edificios, progreso, recompensas y fechas de la última sesión</td><td>El juego, en tu dispositivo</td><td>Guardar tu progreso y calcular el oro acumulado en tu ausencia</td><td>En tu dispositivo y, si la tienes activada, en la copia de seguridad de Android (sección 7)</td></tr><tr><td>Preferencias: sonido, música, idioma y opciones de interfaz</td><td>El juego, en tu dispositivo</td><td>Recordar tus ajustes</td><td>Igual que la partida</td></tr><tr><td>Idioma del dispositivo</td><td>El juego, en tu dispositivo</td><td>Elegir el idioma inicial</td><td>No se envía al desarrollador</td></tr><tr><td>Datos de publicidad: dirección IP, identificadores, interacciones y diagnóstico (sección 4)</td><td>Google y, en su caso, sus socios publicitarios</td><td>Publicidad, analítica y prevención del fraude</td><td>Servidores de Google y de esos socios</td></tr><tr><td>Tu mensaje y tu dirección de correo, si escribes al contacto de privacidad</td><td>El responsable</td><td>Atender tu consulta o solicitud</td><td>Buzón de correo del responsable</td></tr></tbody></table></div>
+<p>Si descargas el juego desde Google Play, Google Play también trata datos conforme a sus propias condiciones, y puede facilitar al desarrollador estadísticas de instalaciones y estabilidad, que Google presenta de forma agregada.</p>
+<p><strong>Lo que el juego no hace.</strong> No pide tu nombre ni tu correo dentro de la aplicación, no tiene chat ni funciones sociales, y no solicita permisos de ubicación, contactos, cámara, micrófono, fotos o archivos. Tampoco integra Firebase, Crashlytics ni otros servicios propios de analítica o seguimiento. El desarrollador no utiliza servidores propios para el juego.</p>
+<h2 id="s3">3. Anuncios en el juego</h2>
+<p>El juego muestra dos formatos de Google AdMob:</p>
+<ul><li><strong>Anuncios bonificados (Rewarded).</strong> Solo aparecen si tú eliges verlos. Si el SDK de Google confirma que has completado el anuncio, recibes el premio del juego indicado. Si lo cierras antes, no carga o falla, no hay premio. Puedes jugar sin ver ninguno.</li><li><strong>Anuncios intersticiales (Interstitial).</strong> Anuncios a pantalla completa que pueden aparecer de vez en cuando al terminar una fundición del montón de oro iniciada por ti. Su frecuencia está limitada y no dan ningún premio. Si no hay ninguno disponible, el juego continúa con normalidad.</li></ul>
+<p>El juego no incluye compras dentro de la aplicación.</p>
+<h2 id="s4">4. Publicidad de Google AdMob y sus proveedores</h2>
+<p>La publicidad la sirve el SDK de anuncios de Google para móviles (versión 24.7.0 en la fecha de esta política). Según <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">la información publicada por Google</a> para su SDK, este puede recoger y compartir automáticamente:</p>
+<ul><li><strong>Dirección IP</strong>, que puede usarse para estimar la ubicación general del dispositivo.</li><li><strong>Interacciones con el producto</strong>, como aperturas de la aplicación, toques y visualizaciones de vídeo.</li><li><strong>Información de diagnóstico</strong>, como el tiempo de arranque, los bloqueos y el consumo de energía de la aplicación y del SDK.</li><li><strong>Identificadores del dispositivo y de la cuenta</strong>, como el ID de publicidad de Android, el ID del conjunto de aplicaciones y, cuando corresponda, otros identificadores asociados a cuentas con sesión iniciada.</li></ul>
+<p>Google indica que usa estos datos para publicidad, analítica y prevención del fraude, y que los cifra durante la transmisión con TLS. Google actualiza esa información con cada versión de su SDK, por lo que te recomendamos consultarla directamente.</p>
+<p>Según la configuración de AdMob y tu elección, los anuncios pueden proceder también de <a href="https://support.google.com/admob/answer/9012903" rel="noopener noreferrer">proveedores de tecnología publicitaria</a> que colaboran con Google. El juego no integra directamente SDK publicitarios de otras empresas.</p>
+<p>Puedes consultar <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">cómo usa Google los datos de las aplicaciones que utilizan sus servicios</a> y <a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">cómo usa la información en publicidad</a>.</p>
+<h2 id="s5">5. Identificadores publicitarios y tecnologías similares</h2>
+<p>Una aplicación Android no usa las cookies de un navegador de la misma forma que una web. En su lugar, el SDK de Google puede usar identificadores y almacenar información en tu dispositivo para mostrar anuncios, limitar cuántas veces los ves, medirlos y prevenir el fraude.</p>
+<ul><li><strong>ID de publicidad de Android.</strong> Puedes restablecerlo o eliminarlo en los ajustes de tu dispositivo. La ruta depende del fabricante y suele ser Ajustes &gt; Privacidad &gt; Anuncios.</li><li><strong>ID del conjunto de aplicaciones.</strong> Lo usa Google para analítica y prevención del fraude.</li><li><strong>Funciones de publicidad de Android (Privacy Sandbox).</strong> El SDK declara los permisos correspondientes a temas, atribución e identificador de publicidad. Su disponibilidad y sus controles dependen de tu versión de Android.</li></ul>
+<p>Puedes gestionar tus preferencias de anuncios de Google en <a href="https://myadcenter.google.com" rel="noopener noreferrer">Mi centro de anuncios</a>.</p>
+<h2 id="s6">6. Consentimiento y RGPD</h2>
+<p>El juego integra la plataforma de mensajes de usuario de Google (UMP, versión 3.2.0). Al abrir la aplicación, consulta si debe pedirte consentimiento según tu ubicación. Si es necesario, muestra el formulario de Google y no solicita anuncios hasta que el SDK indique que puede hacerlo. Si el formulario no puede cargarse, por ejemplo sin conexión, el juego sigue funcionando y solo se usa un consentimiento anterior si existe.</p>
+<p>Cuando la normativa lo exige, verás en <strong>Ajustes &gt; Privacidad de los anuncios</strong> una opción para revisar o cambiar tu elección. Retirar el consentimiento no afecta a la licitud de lo tratado antes.</p>
+<p><strong>Bases jurídicas:</strong></p>
+<ul><li><strong>Publicidad con acceso o almacenamiento de información en el dispositivo y, en su caso, personalización:</strong> tu consentimiento cuando la normativa lo requiere (artículo 6.1.a del RGPD y artículo 22.2 de la LSSI).</li><li><strong>Consultas enviadas por correo:</strong> nuestro interés legítimo en responderte y, cuando corresponda, el cumplimiento de obligaciones legales relativas a tus derechos (artículo 6.1.f y 6.1.c del RGPD).</li><li><strong>Datos guardados en tu dispositivo:</strong> se usan para que funcione el juego que has decidido utilizar, y el desarrollador no accede a ellos.</li></ul>
+<p>Si no das tu consentimiento, puedes seguir jugando. Según tu elección y las reglas aplicables, los anuncios pueden ser no personalizados o limitados, o puede que no haya anuncios disponibles, lo que también puede dejar sin disponibilidad los premios que dependen de ellos.</p>
+<h2 id="s7">7. Almacenamiento local y conservación</h2>
+<p>El juego guarda tu partida y tus preferencias en el almacenamiento privado de la aplicación en tu dispositivo. Guarda automáticamente mientras juegas y al salir. Si detecta una partida dañada, conserva una copia local para no perderla.</p>
+<p><strong>Durante cuánto tiempo y cómo borrarlo:</strong></p>
+<ul><li><strong>Reiniciar la partida:</strong> Ajustes &gt; Reiniciar partida borra el progreso. Tus preferencias de sonido e idioma se conservan.</li><li><strong>Borrar todo del dispositivo:</strong> desinstala el juego o borra sus datos desde los ajustes de Android.</li><li><strong>Copia de seguridad de Android:</strong> el juego permite la <a href="https://support.google.com/android/answer/2819582" rel="noopener noreferrer">copia de seguridad de Android</a>. Si la tienes activada, los datos de la aplicación pueden incluirse en tu cuenta de Google y restaurarse en un dispositivo. Esa copia la gestionas desde los ajustes de tu dispositivo y de tu cuenta de Google, no el desarrollador.</li><li><strong>Datos de publicidad:</strong> Google los conserva según <a href="https://policies.google.com/privacy" rel="noopener noreferrer">sus políticas</a>. El desarrollador no los controla ni puede borrarlos.</li><li><strong>Correos de contacto:</strong> se conservan el tiempo necesario para atender tu solicitud y, después, solo mientras puedan derivarse responsabilidades legales.</li></ul>
+<h2 id="s8">8. Funcionamiento sin conexión</h2>
+<p>Puedes jugar sin conexión a Internet: el juego y su progreso funcionan en tu dispositivo. Sin conexión no se cargan anuncios ni el formulario de consentimiento, y los premios por anuncio no están disponibles. Al recuperar la conexión, el SDK de Google puede volver a comunicarse con sus servidores conforme a lo descrito en esta política.</p>
+<h2 id="s9">9. Transferencias internacionales</h2>
+<p>Google y sus socios pueden tratar datos fuera del Espacio Económico Europeo, también en Estados Unidos. Google indica que se apoya en <a href="https://policies.google.com/privacy/frameworks" rel="noopener noreferrer">decisiones de adecuación, el Marco de Privacidad de Datos UE-EE. UU. y cláusulas contractuales tipo</a>. El desarrollador no realiza por sí mismo transferencias de datos de juego, porque no los recibe. Si escribes por correo, tu mensaje se tratará a través del proveedor de correo del responsable, que puede estar sujeto a sus propias transferencias.</p>
+<h2 id="s10">10. Seguridad</h2>
+<p>Tus datos de partida están en el almacenamiento privado de la aplicación, protegido por Android. Google indica que los datos recogidos por su SDK se cifran durante la transmisión. Ningún sistema es totalmente infalible, por lo que te recomendamos mantener actualizados tu dispositivo y el juego.</p>
+<h2 id="s11">11. Tus derechos</h2>
+<p>Puedes ejercer tus derechos de <strong>acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad</strong>, así como <strong>retirar tu consentimiento</strong>, en los términos que establece la normativa. Para ello, escribe a <a href="mailto:ollostudioapp@gmail.com">ollostudioapp@gmail.com</a>. Responderemos en el plazo legal, que en general es de un mes.</p>
+<p>Ten en cuenta que el desarrollador no recibe tu partida ni los datos de publicidad, y que no tiene un dato que le permita identificarte dentro de ellos. Por eso:</p>
+<ul><li><strong>Partida:</strong> puedes borrarla y gestionarla directamente, como se indica en la sección 7.</li><li><strong>Publicidad:</strong> usa las opciones de las secciones 5 y 6, o dirígete a Google mediante su <a href="https://policies.google.com/privacy" rel="noopener noreferrer">política de privacidad</a>.</li></ul>
+<p>Si crees que no se han respetado tus derechos, puedes reclamar ante la <a href="https://www.aepd.es" rel="noopener noreferrer">Agencia Española de Protección de Datos</a> o la autoridad de control que te corresponda.</p>
+<h2 id="s12">12. Menores</h2>
+<p>El juego no está dirigido a menores de 14 años. En España, la edad mínima general para consentir por uno mismo el tratamiento de datos personales es de 14 años (artículo 7 de la LOPDGDD), y en otros países puede ser distinta, hasta 16 años. El juego no solicita la edad ni la comprueba, y no está configurado para ofrecer publicidad específica para niños.</p>
+<p>Si eres madre, padre o tutor y un menor usa el juego, puedes desinstalarlo, gestionar el ID de publicidad del dispositivo y escribirnos si tienes dudas.</p>
+<h2 id="s13">13. Permisos de Android</h2>
+<div class="table"><table><thead><tr><th scope="col">Permiso</th><th scope="col">Para qué sirve</th></tr></thead><tbody><tr><td><code>INTERNET</code> y <code>ACCESS_NETWORK_STATE</code></td><td>Cargar anuncios y el formulario de consentimiento, y saber si hay conexión</td></tr><tr><td><code>com.google.android.gms.permission.AD_ID</code></td><td>Permite al SDK usar el ID de publicidad</td></tr><tr><td><code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code> y <code>ACCESS_ADSERVICES_TOPICS</code></td><td>Funciones de publicidad de Android, declaradas por el SDK de Google</td></tr><tr><td><code>WAKE_LOCK</code> y <code>FOREGROUND_SERVICE</code></td><td>Tareas internas de las bibliotecas que usa el SDK de Google</td></tr></tbody></table></div>
+<h2 id="s14">14. Enlaces de interés</h2>
+<ul><li><a href="https://policies.google.com/privacy" rel="noopener noreferrer">Política de privacidad de Google</a></li><li><a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">Cómo usa Google los datos de las aplicaciones asociadas</a></li><li><a href="https://policies.google.com/technologies/ads" rel="noopener noreferrer">Publicidad en Google</a></li><li><a href="https://developers.google.com/admob/android/privacy/play-data-disclosure" rel="noopener noreferrer">Datos que recoge el SDK de anuncios de Google (AdMob)</a></li><li><a href="https://business.safety.google/privacy/" rel="noopener noreferrer">Privacidad y seguridad en AdMob y otros productos de Google</a></li><li><a href="https://www.aepd.es" rel="noopener noreferrer">Agencia Española de Protección de Datos</a></li></ul>
+<h2 id="s15">15. Cambios en esta política</h2>
+<p>Si cambia el funcionamiento del juego o la normativa aplicable, actualizaremos esta página y su fecha de última actualización.</p>
+</main>
+<footer>Golden Hoard: Idle Clicker · <code>es.montondeoro</code> · Esta página no contiene publicidad ni rastreadores.</footer>
+</div>
+</body>
+</html>
